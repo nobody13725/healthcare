@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @media print {
+    body {
+      background-color: white !important;
+      color: black !important;
+    }
+    .page-break {
+      page-break-before: always;
+      break-before: page;
+    }
+    .print\:hidden {
+      display: none !important;
+    }
+  }
+
+  /* Custom subtle scrollbar */
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

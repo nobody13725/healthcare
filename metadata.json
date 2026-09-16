@@ -1,0 +1,6 @@
+{
+  "name": "Hệ thống Quản lý Sức khỏe Cá nhân",
+  "description": "Hệ thống quản lý sức khỏe cá nhân toàn diện theo chu kỳ mục tiêu và kỹ thuật Focus To-Do với trợ lý AI phân tích tiến độ, theo dõi thói quen, đo lường chỉ số sinh trắc học và lịch trình y tế.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
